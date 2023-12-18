@@ -56,4 +56,4 @@ def get(company_name,intervel):
 name=str(input("Enter company symbol name:")).upper()
 time_intervel=str(input("Enter time intervel for data: "))
 get(name,time_intervel)
-print(data)
+print(f"data :\n {data}")
