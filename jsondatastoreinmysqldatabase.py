@@ -1,4 +1,5 @@
 import requests
+#
 def get(company_name,intervel):
     #requesting for api on www.alphavantage.com
     response=requests.get("https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol="+company_name+"&interval="+intervel+"min&apikey=S5EH3VNQ0WZ5KR74")
