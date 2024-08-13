@@ -32,7 +32,7 @@ def get(company_name,intervel):
     """
     cursor.execute(create_table_query)
 
-    #Iterate through the data and insert it into the table
+    #Iterate through the data and insert it into the tables 
     for timestamp, values in data[f"Time Series ({str(intervel)}min)"].items():
         open_price = values["1. open"]
         high_price = values["2. high"]
