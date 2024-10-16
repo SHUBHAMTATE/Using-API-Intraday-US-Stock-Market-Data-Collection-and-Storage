@@ -49,6 +49,7 @@ def get(company_name,intervel):
     # Commit the changes to the database
     conect.commit()
 
+    
     # Close the cursor and connection
     cursor.close()
     conect.close()
