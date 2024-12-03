@@ -10,7 +10,7 @@ def get(company_name,intervel):
     import mysql.connector
 
     conect=mysql.connector.connect(host="localhost",user="root",database="")
-
+ 
     cursor=conect.cursor()
     # Create the database if it doesn't exist
     cursor.execute(f"CREATE DATABASE IF NOT EXISTS stockcompany")
