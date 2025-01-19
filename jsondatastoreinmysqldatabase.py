@@ -1,3 +1,4 @@
+
 import requests
 def get(company_name,intervel):
     #requesting for api on www.alphavantage.com
